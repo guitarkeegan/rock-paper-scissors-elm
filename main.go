@@ -66,7 +66,7 @@ func main() {
 		if s.Scan() {
 			userInput = s.Text()
 		}
-		if userInput == "no" {
+		if userInput == "no" || userInput == "n" {
 			fmt.Println("Thank you for playing!!!")
 			os.Exit(0)
 		}
