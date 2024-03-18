@@ -58,7 +58,6 @@ func main() {
 		m, err := Update(m, userInput)
 		if err != nil {
 			fmt.Println(m.error)
-			// then what?
 		}
 		View(m)
 		if s.Scan() {
