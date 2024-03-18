@@ -52,7 +52,6 @@ func main() {
 		if s.Scan() {
 			userInput = s.Text()
 		}
-		fmt.Printf("got user input: %s", userInput)
 		if userInput == "" {
 			// something better here
 			continue
