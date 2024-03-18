@@ -42,7 +42,6 @@ type model struct {
 
 func main() {
 
-	// create initial model
 	s := bufio.NewScanner(os.Stdin)
 	for {
 		m := initialModel()
